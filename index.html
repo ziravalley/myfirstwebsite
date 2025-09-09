@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>My First Webpage</title>
+    <style>
+        /* Simple styling for the two-column layout */
+        table.layout {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table.layout td {
+            vertical-align: top;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        table.layout .menu {
+            width: 25%;
+            background-color: #f9f9f9;
+        }
+        table.layout .main {
+            width: 75%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Madina Sadykova</h1>
+    <h2>Course: WEB Technologies 1 (Front End)</h2>
+
+    <h3>About me</h3>
+    <p>Hi! My name is Madina, and I'm starting to learn web development. I enjoy exploring new technologies and creating new sites!</p>
+
+    <h3>My Hobbies</h3>
+    <ol>
+        <li>Reading books</li>
+        <li>Programming</li>
+        <li>Traveling</li>
+    </ol>
+
+    <h3>My Favorite Websites</h3>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Google</a></li>
+        <li><a href="https://www.wikipedia.org" target="_blank" rel="noopener noreferrer">Wikipedia</a></li>
+        <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">YouTube</a></li>
+    </ul>
+
+    <h3>My Photo</h3>
+    <img src="https://www.cossa.ru/upload/main/5e4/6875b6943330a6fbef8b392a63c5705e_pexels_photo_712513.jpeg" alt="My photo" width="300" />
+
+    <br><br>
+    <button>Click Me</button>
+
+    <h3>Weekly Class Schedule</h3>
+    <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Day</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Web Development</td>
+                <td>Monday</td>
+                <td>10:00 - 12:00</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Wednesday</td>
+                <td>14:00 - 16:00</td>
+            </tr>
+            <tr>
+                <td>HTML & CSS</td>
+                <td>Friday</td>
+                <td>09:00 - 11:00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Two-column Layout Using Table</h3>
+    <table class="layout">
+        <tr>
+            <td class="menu">
+                <strong>Menu</strong>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </td>
+            <td class="main">
+                <strong>Main Content</strong>
+                <p>This is the main area where the content will be displayed.</p>
+            </td>
+        </tr>
+    </table>
+
+    <h3>My Mood Today</h3>
+    <p>Feeling happy 😊, motivated 💪, and curious 🤔 to learn more!</p>
+
+    <h3>Contact Form</h3>
+    <form>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="color">Favorite Color:</label><br />
+        <input type="color" id="color" name="color" value="#000000" /><br /><br />
+
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+</html>
+
+
